@@ -139,6 +139,11 @@ input, textarea {
     from { transform: translateY(100vh) scale(0.5); }
     to { transform: translateY(-10vh) scale(1); }
 }
-ul {
-    list-style-position: inside;
+
+/* Updated List Styling for the Agreement Section */
+section ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
 }
